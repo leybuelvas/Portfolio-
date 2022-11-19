@@ -1,5 +1,5 @@
 body {
-  color: #292929;
+  color: #f4f0f0;
   font-family: Poppins, helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -23,7 +23,7 @@ h6 {
   margin: 0;
 }
 h2 {
-  color: rgb(115, 100, 200);
+  color: rgb(237, 236, 240);
   font-weight: 600;
 }
 h4 {
@@ -72,7 +72,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: rgb(8, 8, 8);
+  color: rgb(248, 247, 247);
   line-height: 28px;
 }
 input:focus {
@@ -94,7 +94,7 @@ textarea:focus {
   color: #fff;
 }
 .btn {
-  background: rgb(115, 100, 200);
+  background: rgba(39, 46, 80, 0.557);
   border: medium none;
   border-radius: 0;
   color: #fff;
@@ -125,7 +125,7 @@ textarea:focus {
 }
 .form-control {
   background-color: transparent;
-  border: 1px solid rgb(3, 3, 3);
+  border: 1px solid rgb(247, 243, 243);
   border-radius: 0;
   color: rgb(4, 4, 4);
   font-size: 12px;
@@ -160,7 +160,7 @@ textarea:focus {
 }
 nav {
   position: fixed;
-  background: rgb(115, 100, 200);
+  background: rgb(28, 16, 57);
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -187,7 +187,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: rgb(115, 100, 200);
+  color: rgb(237, 236, 243);
   font-family: Poppins, helvetica;
   font-weight: 500;
   line-height: 16px;
@@ -199,15 +199,15 @@ nav ul li a {
   float: left;
 }
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 110px;
+  height: 60px;
 }
 .responsive {
   display: none;
   font-size: 23px;
 }
 .active {
-  color: rgb(115 100 2000);
+  color: #04050a;
 }
 @media (max-width: 900px) {
   .firefly {
@@ -264,7 +264,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #feffff;
+  background: #1c1039;
   padding-top: 190px;
 }
 #about .div-img-bg {
@@ -290,7 +290,7 @@ nav ul li a {
   text-align: justify;
 }
 #services {
-  background: #ffffff;
+  background: rgb(28, 16, 57);
   position: relative;
   padding-bottom: 80px;
   z-index: -1;
@@ -302,7 +302,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #070707;
+  color: #fcfafa;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -340,7 +340,7 @@ nav ul li a {
   cursor: pointer;
 }
 .services-carousel .owl-dot.active {
-  background-color: rgb(115, 100, 200);
+  background-color: rgb(243, 242, 245);
 }
 .owl-nav {
   display: none;
@@ -348,7 +348,7 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
-  background-color: #ffffff !important;
+  background-color: rgb(28, 16, 57) !important;
   z-index: -1;
 }
 #portfolio .portfolio-list {
@@ -362,7 +362,7 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: rgb(115, 100, 200);
+  color: rgb(249, 248, 254);
   line-height: 16px;
   cursor: pointer;
   font-family: Poppins, helvetica;
@@ -377,7 +377,7 @@ nav ul li a {
 }
 #portfolio .portfolio-list .nav li.filter-active,
 #portfolio .portfolio-list .nav li:hover {
-  color: rgb(115, 100, 200);
+  color: rgb(233, 232, 239);
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -401,7 +401,7 @@ nav ul li a {
 #journal-blog {
   height: auto;
   width: 100%;
-  background: #fcffff;
+  background: rgb(28, 16, 57);
   padding-bottom: 60px;
   position: relative;
   z-index: -1;
@@ -431,7 +431,7 @@ nav ul li a {
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: rgb(115, 100, 200);
+  color: rgb(74, 56, 174);
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -454,10 +454,10 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
-  background-color: #ffffff !important;
+  background-color: rgb(28, 16, 57) !important;
 }
 .contact-details {
-  color: #080808;
+  color: #f5f1f1;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -500,7 +500,7 @@ nav ul li a {
   font-size: 13px;
 }
 #footer {
-  background: #feffff;
+  background: rgb(28, 16, 57);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -547,7 +547,7 @@ nav ul li a {
 }
 .credits {
   font-size: 13px;
-  color: #030303;
+  color: #f3eded;
 }
 .me {
   text-align: justify;
