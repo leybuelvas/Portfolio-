@@ -273,7 +273,7 @@ nav ul li a {
 }
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0 0 85px 0 rgba(7, 7, 7, 0.14);
+  box-shadow: 0 0 85px 0 rgba(23, 8, 233, 0.435);
   margin-top: -60px;
   margin-left: 40px;
   height: 400px;
@@ -396,6 +396,8 @@ nav ul li a {
 }
 .portfolio-thumbnail img {
   max-width: 100%;
+  height: auto;
+  
 }
 #journal,
 #journal-blog {
@@ -405,6 +407,7 @@ nav ul li a {
   padding-bottom: 60px;
   position: relative;
   z-index: -1;
+
 }
 #journal-blog {
   background: #fff;
